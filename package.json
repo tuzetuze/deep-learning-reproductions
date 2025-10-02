@@ -1,0 +1,65 @@
+{
+  "name": "deep-learning-reproductions",
+  "version": "1.0.0",
+  "description": "经典深度学习论文复现集合 - 包含8个经典模型的完整PyTorch实现",
+  "main": "DeepLearningReproductions.jsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js,.jsx",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,css,md}\""
+  },
+  "keywords": [
+    "deep-learning",
+    "pytorch",
+    "resnet",
+    "transformer",
+    "gan",
+    "vae",
+    "unet",
+    "yolo",
+    "vit",
+    "machine-learning",
+    "neural-networks",
+    "paper-reproduction",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.292.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/deep-learning-reproductions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/deep-learning-reproductions/issues"
+  },
+  "homepage": "https://github.com/yourusername/deep-learning-reproductions#readme"
+}
+
