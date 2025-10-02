@@ -2,19 +2,10 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-    "./public/index.html",
-    "./*.{js,jsx}"
+    "./public/index.html"
   ],
   theme: {
-    extend: {
-      colors: {
-        // 自定义颜色
-      },
-      fontFamily: {
-        mono: ['Fira Code', 'Monaco', 'Consolas', 'monospace'],
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
-

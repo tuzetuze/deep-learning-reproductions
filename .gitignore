@@ -63,7 +63,7 @@ dist
 
 # Gatsby
 .cache/
-public
+# public  # 注释掉，React 项目需要 public 目录
 
 # Python (如果有PyTorch脚本)
 __pycache__/
@@ -85,4 +85,7 @@ env/
 .env.backup
 package-lock.json
 yarn.lock
+
+# Claude AI 设置
+.claude/
 

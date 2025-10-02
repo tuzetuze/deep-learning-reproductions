@@ -52,11 +52,23 @@ npm run build
 
 ```
 tcp/
-├── DeepLearningReproductions.jsx  # 主组件
-├── modelConfigs.js                # 模型配置文件
-├── package.json                   # 项目依赖
-├── README.md                      # 项目文档
-└── .gitignore                     # Git 忽略文件
+├── public/                        # 静态资源
+│   ├── index.html                # HTML 模板
+│   ├── manifest.json             # PWA 配置
+│   └── robots.txt                # 爬虫规则
+├── src/                          # 源代码
+│   ├── App.js                    # 应用入口
+│   ├── DeepLearningReproductions.jsx  # 主组件
+│   ├── modelConfigs.js           # 模型配置文件
+│   ├── index.js                  # React 入口
+│   └── index.css                 # 全局样式
+├── package.json                  # 项目依赖
+├── tailwind.config.js            # Tailwind 配置
+├── README.md                     # 项目文档
+├── LICENSE                       # MIT 许可证
+├── CONTRIBUTING.md               # 贡献指南
+├── DEPLOY.md                     # 部署文档
+└── .gitignore                    # Git 忽略文件
 ```
 
 ## 💡 使用方法
