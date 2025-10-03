@@ -89,3 +89,6 @@ yarn.lock
 # Claude AI 设置
 .claude/
 
+
+# 备份文件
+*.bak
