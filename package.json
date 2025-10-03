@@ -53,13 +53,12 @@
       "last 1 safari version"
     ]
   },
-  "repository": {
+"repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/deep-learning-reproductions.git"
+    "url": "https://github.com/tuzetuze/deep-learning-reproductions.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/deep-learning-reproductions/issues"
+    "url": "https://github.com/tuzetuze/deep-learning-reproductions/issues"
   },
-  "homepage": "https://github.com/yourusername/deep-learning-reproductions#readme"
+  "homepage": "https://github.com/tuzetuze/deep-learning-reproductions#readme"
 }
-
